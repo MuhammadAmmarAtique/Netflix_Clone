@@ -5,14 +5,10 @@
 A Netflix clone created using HTML, Tailwind CSS, and JavaScript.
 
 ## Table of Contents
-- [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Demo
-https://muhammadammaratique.github.io/Netflix_Clone/
 
 ## Features
 - Responsive design

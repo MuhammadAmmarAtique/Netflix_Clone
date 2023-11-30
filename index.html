@@ -169,28 +169,28 @@
     </section>
 
     <!-- 6) 6th Section -->
-    <section class="w-[100%] h-[150vh] bg-[#000000]  text-white border-b-8 border-[#232323]">
+    <section class="w-[100%] h-auto bg-[#000000]  text-white border-b-8 border-[#232323]">
 
         <div class="max-w-[1070px] mx-auto h-[100%] ">
 
             <!-- flex item 1 -->
             <div class="flex justify-center items-center">
-                <h1 class="sm:text-5xl text-3xl font-bold mb-5 mt-[4rem]">Frequently Asked Questions</h1>
+                <h1 class="sm:text-5xl text-3xl font-bold mb-5 mt-[4rem] text-center">Frequently Asked Questions</h1>
             </div>
  
             <!-- flex item 2 -->
-            <div class="text-white">
+            <div class="text-white mb-[2rem]">
                 <!-- a) -->
-                <div>
+                <div class="parent mb-2">
                     <!-- First part -->
-                    <div class="bg-[#414141] max-w-[90%] mx-auto h-[4.5rem] flex items-center justify-between px-[1.3rem] hover:bg-[#555555] duration-200 mb-[1px] what">
-                       <h1 class="text-2xl"> What is Netflix?</h1>
-                       <p class="text-5xl">+</p>
+                    <div class="bg-[#414141] max-w-[90%] mx-auto h-[4.5rem] flex items-center justify-between px-[1.3rem] hover:bg-[#555555] duration-200 mb-[1px] child" onclick="toggleVisibility(this)">
+                       <h1 class="sm:text-2xl text-xl "> What is Netflix?</h1>
+                       <p class="sm:text-5xl text-3xl symbol_element">+</p>
                     </div>
 
                     <!-- Second part (it will show when everytime user clicks) -->
-                     <div class="bg-[#414141] max-w-[90%] mx-auto h-[10rem] flex flex-col items-center justify-center  
-                     px-[1.3rem] hidden">
+                     <div class="bg-[#414141] max-w-[90%] mx-auto sm:h-[10rem] h-auto  flex flex-col items-center justify-center  
+                     px-[1.3rem] secondchild hidden " >
 
                        <p class="mb-3">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices</p>
 
@@ -199,25 +199,108 @@
                 </div>
 
 
+                <!-- b) -->
+                <div class="parent mb-2">
+                    <!-- First part -->
+                    <div class="bg-[#414141] max-w-[90%] mx-auto h-[4.5rem] flex items-center justify-between px-[1.3rem] hover:bg-[#555555] duration-200 mb-[1px] child" onclick="toggleVisibility(this)">
+                       <h1 class="sm:text-2xl text-xl ">  How much does Netflix Cost?</h1>
+                       <p class="sm:text-5xl text-3xl symbol_element">+</p>
+                    </div>
 
+                    <!-- Second part (it will show when everytime user clicks) -->
+                     <div class="bg-[#414141] max-w-[90%] mx-auto sm:h-[5rem] h-auto  flex flex-col items-center justify-center  
+                     px-[1.3rem] secondchild hidden" >
 
+                       <p class="mb-3">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from Rs 250 to Rs 1,100 a month. No extra costs, no contracts.</p>
+                    </div>
+                </div>
+
+                <!-- c) -->
+                <div class="parent mb-2">
+                    <!-- First part -->
+                    <div class="bg-[#414141] max-w-[90%] mx-auto h-[4.5rem] flex items-center justify-between px-[1.3rem] hover:bg-[#555555] duration-200 mb-[1px] child" onclick="toggleVisibility(this)">
+                       <h1 class="sm:text-2xl text-xl ">  Where can I watch?</h1>
+                       <p class="sm:text-5xl text-3xl symbol_element">+</p>
+                    </div>
+
+                    <!-- Second part (it will show when everytime user clicks) -->
+                     <div class="bg-[#414141] max-w-[90%] mx-auto sm:h-[12rem] h-auto  flex flex-col items-center justify-center  
+                     px-[1.3rem] secondchild hidden" >
+
+                       <p class="mb-3">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+
+                       <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                    </div>
+                </div>
+
+                <!-- d) -->
+                <div class="parent mb-2">
+                    <!-- First part -->
+                    <div class="bg-[#414141] max-w-[90%] mx-auto h-[4.5rem] flex items-center justify-between px-[1.3rem] hover:bg-[#555555] duration-200 mb-[1px] child" onclick="toggleVisibility(this)">
+                       <h1 class="sm:text-2xl text-xl ">  How do I cancel?</h1>
+                       <p class="sm:text-5xl text-3xl symbol_element">+</p>
+                    </div>
+
+                    <!-- Second part (it will show when everytime user clicks) -->
+                     <div class="bg-[#414141] max-w-[90%] mx-auto sm:h-[5rem] h-auto  flex flex-col items-center justify-center  
+                     px-[1.3rem] secondchild hidden" >
+
+                       <p class="mb-3">Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                    </div>
+                </div>
+
+                <!-- e) -->
+                <div class="parent mb-2">
+                    <!-- First part -->
+                    <div class="bg-[#414141] max-w-[90%] mx-auto h-[4.5rem] flex items-center justify-between px-[1.3rem] hover:bg-[#555555] duration-200 mb-[1px] child" onclick="toggleVisibility(this)">
+                       <h1 class="sm:text-2xl text-xl "> Where can I watch on Netflix?</h1>
+                       <p class="sm:text-5xl text-3xl symbol_element">+</p>
+                    </div>
+
+                    <!-- Second part (it will show when everytime user clicks) -->
+                     <div class="bg-[#414141] max-w-[90%] mx-auto sm:h-[5rem] h-auto  flex flex-col items-center justify-center  
+                     px-[1.3rem] secondchild hidden" >
+
+                       <p class="mb-3">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                    </div>
+                </div>
+
+                <!-- f) -->
+                <div class="parent mb-2">
+                    <!-- First part -->
+                    <div class="bg-[#414141] max-w-[90%] mx-auto h-[4.5rem] flex items-center justify-between px-[1.3rem] hover:bg-[#555555] duration-200 mb-[1px] child" onclick="toggleVisibility(this)">
+                       <h1 class="sm:text-2xl text-xl "> Is Netflix good for Kids?</h1>
+                       <p class="sm:text-5xl text-3xl symbol_element">+</p>
+                    </div>
+
+                    <!-- Second part (it will show when everytime user clicks) -->
+                     <div class="bg-[#414141] max-w-[90%] mx-auto sm:h-[10rem] h-auto  flex flex-col items-center justify-center  
+                     px-[1.3rem] secondchild hidden " >
+
+                       <p class="mb-3">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p>
+
+                       <p class="">Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                    </div>
+                </div>
+            
 
             </div>
 
             <!-- flex item 3 -->
             <div class="flex justify-center items-center mb-3">
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <p class="px-[20px]">Ready to watch? Enter your email to create or restart your membership.</p>
             </div>
 
             <!-- flex item 4 -->
-            <div class="flex flex-wrap gap-[8px] justify-center items-center">
+            <div class="flex flex-wrap gap-[8px] justify-center items-center  mb-[3rem]">
 
                 <input type="text" placeholder="Email Address" class="bg-[#0F1515] border rounded p-[5px_10px] h-[50px] 
                 w-[300px] ">
     
                 <div class="relative">
     
-                    <button class="bg-[#D9232E] font-semibold rounded sm:text-2xl text-xl  p-[5.5px_15px] h-[50px]  sm:w-[250px]  w-[180px] ">Get Started</button>
+                    <button class="bg-[#D9232E] font-semibold rounded sm:text-2xl text-xl  p-[5.5px_15px] h-[50px]  
+                    sm:w-[250px]  w-[180px] ">Get Started</button>
                     
                     <i class="ri-arrow-right-s-line text-[2rem] absolute top-[5%] right-[5%]"></i>
     
